@@ -54,8 +54,8 @@ This project is designed for academic, learning, and demonstration purposes, par
 - SQL-based analytics
 - Interactive dashboards
 - Scalable and modular design
-  
-**Project Structure**
+
+ **Project Structure**
 
   SmartEnergyGrids/
 │
@@ -67,9 +67,10 @@ This project is designed for academic, learning, and demonstration purposes, par
 │   └── aggregates.sql # Continuous aggregate queries
 ├── requirements.txt   # Python dependencies
 └── README.md
+
 **How to Run the Project**
 - Start MQTT Broker to Ensure EMQX is running locally or remotely.
-  **Install Dependencies**
+**Install Dependencies**
   - pip install -r requirements.txt
 **Run the Subscriber**
 python subscriber.py
