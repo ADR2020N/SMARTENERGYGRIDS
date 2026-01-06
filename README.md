@@ -70,12 +70,12 @@ This project is designed for academic, learning, and demonstration purposes, par
 
 **How to Run the Project**
 - Start MQTT Broker to Ensure EMQX is running locally or remotely.
-**Install Dependencies**
-  - pip install -r requirements.txt
+- **Install Dependencies**
+-  - pip install -r requirements.txt
 **Run the Subscriber**
 python subscriber.py
 **Run the Publisher**
- python publisher.py
+python publisher.py
 **Launch the Dashboard**
 streamlit run dashboard.py
 
