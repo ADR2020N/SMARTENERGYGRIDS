@@ -67,3 +67,40 @@ This project is designed for academic, learning, and demonstration purposes, par
 │   └── aggregates.sql # Continuous aggregate queries
 ├── requirements.txt   # Python dependencies
 └── README.md
+**How to Run the Project**
+- Start MQTT Broker to Ensure EMQX is running locally or remotely.
+  **Install Dependencies**
+  - pip install -r requirements.txt
+**Run the Subscriber**
+python subscriber.py
+**Run the Publisher**
+ python publisher.py
+**Launch the Dashboard**
+streamlit run dashboard.py
+
+**Dashboard Features**
+
+- Real-time power monitoring
+- Energy trends (last 24 hours)
+- Voltage and frequency stability analysis
+- Comparison between raw data and aggregated data
+- Meter-specific analytics
+  
+**Use Cases**
+- Academic projects (Big Data Analytics, IoT, Smart Grids)
+- Learning MQTT and streaming architectures
+- Time-series database performance analysis
+- Energy consumption monitoring simulations
+
+**Learning Outcomes**
+
+- Understanding MQTT-based streaming systems
+- Working with time-series databases
+- Implementing continuous aggregates
+- Building data-driven dashboards
+- Designing scalable IoT architectures
+
+**Author**
+Adrien Nkurikiyumukiza
+MSc in Big Data Analytics
+Smart Energy & IoT Data Analytics Project
