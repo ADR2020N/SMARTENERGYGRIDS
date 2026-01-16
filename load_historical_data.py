@@ -1,7 +1,7 @@
 import psycopg2
 import random
 from datetime import datetime, timedelta
-
+#dhbgjfgnf.,j
 # -----------------------------------
 # Database Configuration
 # -----------------------------------
@@ -80,3 +80,4 @@ cur.close()
 conn.close()
 
 print("✅ Historical data loading completed.")
+
