@@ -1,4 +1,4 @@
-import psycopg
+import psycopg2
 import random
 from datetime import datetime, timedelta
 # -----------------------------------
@@ -79,6 +79,7 @@ cur.close()
 conn.close()
 
 print("Historical data loading completed.")
+
 
 
 
