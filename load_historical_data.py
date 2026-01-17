@@ -1,7 +1,6 @@
-import psycopg2
+import psycopg
 import random
 from datetime import datetime, timedelta
-#dhbgjfgnf.,j
 # -----------------------------------
 # Database Configuration
 # -----------------------------------
@@ -79,5 +78,6 @@ while current_time < end_time:
 cur.close()
 conn.close()
 
-print("✅ Historical data loading completed.")
+print(" Historical data loading completed.")
+
 
