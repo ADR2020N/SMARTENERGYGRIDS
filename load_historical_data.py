@@ -78,6 +78,7 @@ while current_time < end_time:
 cur.close()
 conn.close()
 
-print(" Historical data loading completed.")
+print("Historical data loading completed.")
+
 
 
